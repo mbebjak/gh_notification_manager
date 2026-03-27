@@ -49,6 +49,10 @@ Each notification has:
 - `subject.url` — API URL (extract PR/issue number from last path segment)
 - `repository.full_name` — e.g. `QualityUnit/LiveAgent`
 
+### Triage Behavior
+
+- **Always re-fetch PR details** when evaluating rules — never reuse data from earlier in the conversation. PR state (draft, labels, reviewers) changes frequently.
+
 ### Auto-Done Rules
 
 Rules are defined in natural language in `rules.md`. Read that file and apply each rule to every notification. If any rule matches, mark the notification as done.
