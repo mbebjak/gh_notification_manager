@@ -17,3 +17,7 @@ Routine automated deploy PRs — title starts with `deploy(`. Always mark as don
 ## Already covered by aharsani
 
 If `aharsani` has already submitted a review on the PR (check `/pulls/{number}/reviews`), and I (`mbebjak`) am NOT in `requested_reviewers`, mark as done. Being only in `requested_reviewers` without a submitted review doesn't count — I still want to see those.
+
+## Merged PRs
+
+If a PR has been merged (`merged` is true), mark the notification as done. Before marking, collect these PRs and show a summary with: repo, PR title, author, and a condensed description of what was done (extract from PR body — skip checklists, testing steps, screenshots, and boilerplate).

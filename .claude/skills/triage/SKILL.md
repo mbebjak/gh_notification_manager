@@ -16,9 +16,17 @@ description: Triage GitHub notifications — apply auto-done rules and present r
 
 3. For each notification, evaluate all rules. Some rules require fetching extra data (PR details, reviews, labels) via `subject.url`. Batch these efficiently.
 
-4. Show results in two sections:
+4. Show results in three sections:
 
-   **Auto-done** — notifications that matched a rule, grouped by rule name:
+   **Merged PRs** — PRs that were merged. Show a condensed summary for each (extract what was done from the PR body, skip checklists/testing/screenshots/boilerplate):
+   ```
+   ## Merged PRs
+
+   - **LiveAgent#21996** refactor: Remove legacy La_Db_CannedMessage — by @author
+     Removed deprecated CannedMessage classes, migrated to new template system.
+   ```
+
+   **Auto-done** — other notifications that matched a rule, grouped by rule name:
    ```
    ## Auto-done
 
