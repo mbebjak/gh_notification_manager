@@ -10,6 +10,10 @@ If the notification is about a PullRequest that is currently in draft state, mar
 
 Routine automated deploy PRs — title starts with `deploy(`. Always mark as done.
 
+## Dependency bump PRs
+
+Automated dependency update PRs — title starts with `build(deps)`. Always mark as done — unless the reason is `mention` or `team_mention` (i.e., explicitly asked to look).
+
 ## Merged PRs
 
 If a PR has been merged (`merged` is true), mark the notification as done. Before marking, collect these PRs and show a summary with: repo, PR title, author, and a condensed description of what was done (extract from PR body — skip checklists, testing steps, screenshots, and boilerplate).
