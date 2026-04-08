@@ -22,6 +22,10 @@ If a PR has been merged (`merged` is true), mark the notification as done. Befor
 
 If a PR has labels `testing:ready` or `integration-test:ready`, it has moved past code review. Mark the notification as done — unless the reason is `mention` (someone explicitly mentioned me). My review is already done on these; I don't care about further rebases, test results, or status changes.
 
+## Integration batch PRs
+
+Routine integration PRs — title starts with `Integration batch` or `Integration 20`. Always mark as done.
+
 ## Already covered by aharsani
 
 If `aharsani` has already submitted a review on the PR (check `/pulls/{number}/reviews`), and I (`mbebjak`) am NOT in `requested_reviewers`, mark as done. Being only in `requested_reviewers` without a submitted review doesn't count — I still want to see those.
