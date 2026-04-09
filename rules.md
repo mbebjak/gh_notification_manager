@@ -26,6 +26,10 @@ If a PR has labels `testing:ready` or `integration-test:ready`, it has moved pas
 
 Routine integration PRs — title starts with `Integration batch` or `Integration 20`. Always mark as done.
 
+## Backport PRs
+
+Backport PRs — title contains `(backport to`. Always mark as done.
+
 ## Already covered by aharsani
 
 If `aharsani` has already submitted a review on the PR (check `/pulls/{number}/reviews`), and I (`mbebjak`) am NOT in `requested_reviewers`, mark as done. Being only in `requested_reviewers` without a submitted review doesn't count — I still want to see those.
