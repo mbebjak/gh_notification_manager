@@ -46,6 +46,6 @@ description: Triage GitHub notifications — apply auto-done rules and present r
    | 1 | LiveAgent | Add Instant message UI... | review_requested |
    ```
 
-5. Ask: "Mark auto-done notifications as done?" Before marking, wait for confirmation.
+5. Immediately mark all auto-done notifications as done (no confirmation needed).
 
 $ARGUMENTS
