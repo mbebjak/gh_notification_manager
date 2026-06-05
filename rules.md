@@ -34,6 +34,10 @@ Backport PRs — title contains `(backport to`. Always mark as done.
 
 Notifications from the `QualityUnit/QuCloud` repository — mark as done unless the reason is `mention` or `team_mention`.
 
+## PostAffiliatePro repo notifications
+
+Notifications from the `QualityUnit/PostAffiliatePro` repository — mark as done unless the reason is `mention` or `team_mention`.
+
 ## Already covered by aharsani or dmolnarqu
 
 If `aharsani` or `dmolnarqu` has already submitted a review on the PR (check `/pulls/{number}/reviews`), and I (`mbebjak`) am NOT in `requested_reviewers`, mark as done. Being only in `requested_reviewers` without a submitted review doesn't count — I still want to see those.
