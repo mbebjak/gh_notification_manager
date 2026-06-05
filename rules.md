@@ -12,7 +12,7 @@ Routine automated deploy PRs — title starts with `deploy(`. Always mark as don
 
 ## Dependency bump PRs
 
-Automated dependency update PRs — title starts with `build(deps)`. Always mark as done — unless the reason is `mention` or `team_mention` (i.e., explicitly asked to look).
+Automated dependency update PRs — title starts with `build(deps)` or `chore(deps)`. Always mark as done — unless the reason is `mention` or `team_mention` (i.e., explicitly asked to look).
 
 ## Merged PRs
 
